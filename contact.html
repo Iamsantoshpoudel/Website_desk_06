@@ -72,7 +72,7 @@
 										<li><a href="about.html" target="_blank">About</a></li>
 										<!-- <li><a href="cart.html">Cart</a></li> -->
 										<!-- <li><a href="checkout.html">Check Out</a></li> -->
-										<li><a href="contact.html" target="">Contact</a></li>
+										<li><a href="contact.html" >Contact</a></li>
 										<!-- <li><a href="news.html">News</a></li> -->
 										<!-- <li><a href="shop.html">Shop</a></li> -->
 									</ul>
@@ -83,7 +83,7 @@
 										<li><a href="single-news.html">News</a></li>
 									<!--</ul>
 								</li>-->
-								<li><a href="contact.html" target="_blank">Contact</a></li>
+								<li><a href="contact.html" >Contact</a></li>
 								<!-- <li><a href="shop.html">Shop</a>
 									<ul class="sub-menu">
 										<li><a href="shop.html">Shop</a></li>
@@ -153,16 +153,25 @@
 						<h2>Have you any question?</h2>
 						<p id="paragraph">You can cantact to our email for further help</p>
 					</div>
-				 	<div id="form_status"></div>
+				 	<div id="form_status" class="369"></div>
 					<div class="contact-form">
-						<form method="post" action="" id="fruitkha-contact">
+						<form method="POST" action="" id="fruitkha-contact">
 							<p>
 								<input type="text" placeholder="Name" name="name" id="name" required>
+								<span id="name-error"></span>
+							</P>
+							<p>
 								<input type="email" placeholder="Email" name="email" id="email" required>
+								<span id="email-error"></span>
 							</p>
 							<p>
 								<input type="tel" placeholder="Phone" name="phone" id="phone" required>
+								<span id="phone-error"></span>
+							</p>
+							<p>
 								<input type="text" placeholder="Subject" name="subject" id="subject" required>
+								<span id="subject-error"></span>
+
 							</p>
 							<p><textarea name="message" id="message" cols="30" rows="10" placeholder="Message" required></textarea></p>
 							<input type="hidden" name="token" value="FsWga4&@f6aw" />
@@ -305,7 +314,7 @@
 	<!-- sticker js -->
 	<script src="assets/js/sticker.js"></script>
 	<!-- form validation js -->
-	<script src="assets/js/form-validate.js"></script>
+	<script src="Validate_form.js"></script>
 	<!-- main js -->
 	<script src="assets/js/main.js"></script>
 	  

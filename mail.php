@@ -1,6 +1,6 @@
 <?php
 
-/*Generate a random token for each form submission
+/*Generate a random token for each form submission*/
 $token = bin2hex(random_bytes(16));
 
 if (empty($_POST['token']) || $_POST['token'] !== $token) {

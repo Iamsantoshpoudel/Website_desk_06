@@ -54,7 +54,7 @@ $(document).ready(function() {
       if (name !== '' && email !== '' && phone !== '' && subject !== '' && message !== '') {
         $.ajax({
           type: 'POST',
-          url: 'index.php',
+          url: 'mail.php',
           data: {
             name: name,
             email: email,

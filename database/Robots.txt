@@ -1,0 +1,23 @@
+# robots.txt for santoshpoudel06.com.np
+
+# Allow all user agents (search engines) to crawl the entire website
+User-agent: *
+Disallow:
+
+# Block common admin or sensitive areas from being crawled
+Disallow: /admin/
+Disallow: /login/
+Disallow: /private/
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /backup/
+Disallow: /cart/
+
+# Allow Googlebot and other bots to access JavaScript and CSS files
+User-agent: Googlebot
+Allow: /js/
+Allow: /css/
+
+# Disallow crawling of specific parameters or URL patterns
+Disallow: /*?*
+Disallow: /*&*

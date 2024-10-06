@@ -10,10 +10,15 @@
 	<meta itemprop="name" content="Santosh poudel -The Web Developer- ">
 	<meta name="author" content="Santosh Poudel">
 	<meta name="keywords"content="web developer, web development, technology, development, innovation, santosh poudel,poudel,santosh poudel06">
-	<!-- preload  -->
-	<script type="module" defer src="./database/firebase-DB.js"></script>
-	<script type="module" defer src="./database/FirebaseConfig.js"></script>
-	<script type="module" defer src="./database/keyword-DB.js"></script>
+	<!-- Preload the script -->
+<link rel="preload" href="./database/firebase-DB.js" as="script" crossorigin="use-credentials">
+<link rel="preload" href="./database/FirebaseConfig.js" as="script" crossorigin="use-credentials">
+<link rel="preload" href="./database/keyword-DB.js" as="script" crossorigin="use-credentials">
+<!-- Load the script with credentials -->
+<script type="module" src="./database/firebase-DB.js" crossorigin="use-credentials"></script>
+<script type="module" src="./database/FirebaseConfig.js" crossorigin="use-credentials"></script>
+<script type="module" src="./database/keyword-DB.js" crossorigin="use-credentials"></script>
+
     <!-- Schema.org markup for Google+ -->
 	<meta itemprop="genre" content="Web Developer">
 	<meta itemprop="publisher" content="https://www.facebook.com/santoshpoudel06/">

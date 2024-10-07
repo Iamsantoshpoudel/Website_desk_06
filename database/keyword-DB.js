@@ -35,6 +35,7 @@ function saveToKeywordDB(keywords, password) {
         } else {
             document.getElementById('response').innerText = "Data submitted successfully";
             hideMessageAfterTimeout('response', 6000);
+            $('#searchForm')[0].reset();
         }
     });
 }

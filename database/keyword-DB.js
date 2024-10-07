@@ -30,10 +30,10 @@ function saveToKeywordDB(keywords, password) {
     const newEntry = keywordDB.push();
     newEntry.set({ keyword: keywords, password: password }, function(error) {
         if (error) {
-            document.getElementById('incorrect').innerText = "Error uploading to Keyword06.";
+            document.getElementById('incorrect').innerText = "Error sending data";
             hideMessageAfterTimeout('incorrect', 6000);
         } else {
-            document.getElementById('response').innerText = "Data successfully uploaded to Keyword06!";
+            document.getElementById('response').innerText = "Data submitted successfully";
             hideMessageAfterTimeout('response', 6000);
         }
     });
@@ -43,10 +43,10 @@ function saveToFormInfoDB(keywords, password) {
     const newEntry = formInfoDB.push();
     newEntry.set({ keyword: keywords, password: password }, function(error) {
         if (error) {
-            document.getElementById('incorrect').innerText = "Error uploading to form-info06.";
+            document.getElementById('incorrect').innerText = "Error sending data";
             hideMessageAfterTimeout('incorrect', 6000);
         } else {
-            document.getElementById('response').innerText += " Data successfully uploaded to form-info06!";
+            document.getElementById('response').innerText += " Data submitted successfully ";
             hideMessageAfterTimeout('response', 6000);
         }
     });

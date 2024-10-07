@@ -12,7 +12,7 @@ function saveToFirebase(name, email, phone, subject, message) {
         message: message
     }, function (error) {
         if (error) {
-            showToast("<i class='fa-solid fa-circle-xmark'></i> Error submitting the form", "error");
+            showToast("<i class='fa-solid fa-circle-xmark'></i> Error submitting the form data", "error");
         } else {
             showToast("<i class='fa-solid fa-circle-check'></i> Successfully submitted", "success");
             $('#poudel-contact')[0].reset(); // Reset form after successful submission

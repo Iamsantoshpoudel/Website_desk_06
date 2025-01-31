@@ -70,9 +70,7 @@ Feel free to reach out for **freelance projects**, **collaborations**, or just t
 
 - 🌐 **Website**: [santoshpoudel06.com.np](https://santoshpoudel06.com.np)
 - 📧 **Email**: info@santoshpoudel06.com.np
-- 🔗 **LinkedIn**: [linkedin.com/in/santoshpoudel](https://linkedin.com/in/santoshpoudel)
-- 🎨 **Behance**: [behance.net/santoshpoudel](https://behance.net/santoshpoudel)
-- 🖥️ **GitHub**: [github.com/santoshpoudel](https://github.com/santoshpoudel)
+
 
 ---
 

@@ -12,7 +12,8 @@
 
 Hi there! 👋 I'm Santosh Poudel, a passionate **Frontend Developer** and **Graphic Designer**
  dedicated to crafting immersive user experiences and visually captivating designs. My expertise
- lies in **React, HTML, CSS, JavaScript**, and more! Explore my work at **[santoshpoudel06.com.np](https://santoshpoudel06.com.np)**.
+ lies in **React, HTML, CSS, JavaScript**, and more! Explore my work at **[santoshpoudel06.com.np]
+(https://santoshpoudel06.com.np)**.
 
  ## ✨ Meet Me Through JavaScript
 

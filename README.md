@@ -1,6 +1,11 @@
 
 
+###
+<div style="text-align: center;">
+  <img src="./main-logo.svg" height="100" width="100">
+</div>
 
+###
 ```yaml
 
    # 🚀 Santosh Poudel | Web Developer & Graphic Designer
@@ -58,12 +63,8 @@ santosh.introduce();
   />
 </picture>
 
-###
-<div style="text-align: center;">
-  <img src="./main-logo.svg" height="100" width="100">
-</div>
 
-###
+
 ## 🎯 **Let’s Collaborate**
 
 Feel free to reach out for **freelance projects**, **collaborations**, or just to chat about design and development! Let’s make something amazing together. 💥

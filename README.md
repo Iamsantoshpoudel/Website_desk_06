@@ -10,14 +10,13 @@
 
    # 🚀 Santosh Poudel | Web Developer & Graphic Designer
 
-Hi there! 👋 I'm Santosh Poudel, a passionate **Frontend Developer** and **Graphic Designer**
+ Hi there! 👋 I'm Santosh Poudel, a passionate **Frontend Developer** and **Graphic Designer**
  dedicated to crafting immersive user experiences and visually captivating designs. My expertise
- lies in **React, HTML, CSS, JavaScript**, and more! Explore my work at **[santoshpoudel06.com.np]
-(https://santoshpoudel06.com.np)**.
+ lies in **React, HTML, CSS, JavaScript**, and more! Explore my work at **(https://santoshpoudel06.com.np)**.
 
  ## ✨ Meet Me Through JavaScript
 
-const About_Me= (() => {
+ const About_Me= (() => {
   return {
     name: "Santosh Poudel",
     title: "Frontend Developer & Graphic Designer",
@@ -68,7 +67,7 @@ santosh.introduce();
 
 
 
-## 🎯 **Let’s Collaborate**
+## 🎯 **Let’s Explore **
 
 Feel free to reach out for **freelance projects**, **collaborations**, or just to chat about design and development! Let’s make something amazing together. 💥
 

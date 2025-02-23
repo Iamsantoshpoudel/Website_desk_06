@@ -16,7 +16,7 @@
 
  ## ✨ Meet Me Through JavaScript
 
- const About_Me= (() => {
+ const santosh= (() => {
   return {
     name: "Santosh Poudel",
     title: "Frontend Developer & Graphic Designer",
